@@ -8,6 +8,10 @@ import Login from '@/views/Login.vue'
 import Layout from '@/views/Layout.vue'
 // 用户信息路由
 import Home from '@/views/Home.vue'
+// 图书路由
+import Book from '@/views/Book.vue'
+// 需求路由
+import Need from '@/views/Need.vue'
 
 Vue.use(VueRouter)
 
@@ -19,7 +23,9 @@ const routes = [
     path: '/',
     component: Layout,
     children: [
-      { path: '/', component: Home }
+      { path: '/', component: Home },
+      { path: '/book', component: Book },
+      { path: '/need', component: Need }
     ]
   }
 ]

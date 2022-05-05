@@ -12,7 +12,7 @@
           <i class="el-icon-s-home"></i>
           <span slot="title">用户列表</span>
         </el-menu-item>
-        <el-menu-item index="/search">
+        <el-menu-item index="/book">
           <i class="el-icon-document"></i>
           <span slot="title">图书管理</span>
         </el-menu-item>
