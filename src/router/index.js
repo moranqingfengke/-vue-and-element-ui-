@@ -12,6 +12,8 @@ import Home from '@/views/Home.vue'
 import Book from '@/views/Book.vue'
 // 需求路由
 import Need from '@/views/Need.vue'
+// 借阅路由
+import Borrow from '@/views/Borrow.vue'
 
 Vue.use(VueRouter)
 
@@ -25,7 +27,8 @@ const routes = [
     children: [
       { path: '/', component: Home },
       { path: '/book', component: Book },
-      { path: '/need', component: Need }
+      { path: '/need', component: Need },
+      { path: '/borrow', component: Borrow }
     ]
   }
 ]

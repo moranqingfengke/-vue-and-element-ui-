@@ -20,6 +20,10 @@
           <i class="el-icon-s-promotion"></i>
           <span slot="title">用户需求</span>
         </el-menu-item>
+        <el-menu-item index="/borrow">
+          <i class="el-icon-s-promotion"></i>
+          <span slot="title">待归还图书</span>
+        </el-menu-item>
       </el-menu>
     </el-aside>
     <el-container>
